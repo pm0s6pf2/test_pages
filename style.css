@@ -1,0 +1,21 @@
+body {
+    background-color: #ccffcc;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+}
+
+#myImage {
+    width: 300px;
+    transition: all 0.5s ease;
+}
+
+#myImage.fullscreen {
+    width: 100%;
+    max-height: 100vh;
+}
+
+.darkBackground {
+    background-color: #333333;
+}
