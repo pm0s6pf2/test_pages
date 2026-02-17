@@ -1,13 +1,14 @@
-const button = document.getElementById("resizeButton");
-const image = document.getElementById("myImage");
-const body = document.getElementById("pageBody");
+document.addEventListener("DOMContentLoaded", function () {
 
-button.addEventListener("click", function () {
+    const button = document.getElementById("resizeButton");
+    const image = document.getElementById("myImage");
+    const body = document.getElementById("pageBody");
 
-    // ① 画像最大化
-    image.classList.toggle("fullscreen");
+    button.addEventListener("click", function () {
 
-    // ② 背景色変更
-    body.classList.toggle("darkBackground");
+        image.classList.toggle("fullscreen");
+        body.classList.toggle("darkBackground");
+
+    });
 
 });
